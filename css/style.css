@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 935px;
+    background-color: #0E0E0E;
+
+    padding-top: 31px; /*to push its content (chess_board_div) 77px down from the top*/
+    text-align: center;
+
+}
+.main h1{
+    color: #FCE2A0;
+    /* sets the text to Papyrus */
+    font-family: Papyrus;
+}
+.chess_board_div{
+    width: 782px;
+    height: 817px;
+    background-color: #59473F;
+
+    margin: 0 auto; /*bring the div to center (X-axis)*/   
+}
+
+.abc_title{
+    height: 28px;
+    /* background-color: pink; */
+    word-spacing: 78px;
+    padding: 5px 50px;
+    color: #FCE2A0;
+}
+
+.numbering_div{
+    height: 93px;
+    width: 20px;
+    color: #FCE2A0;
+  
+    float: left;
+
+    /* to bring the text into center */
+    text-align: center;
+    line-height: 86px;  
+}
+
+.boxes_container{
+    width: 744px;
+    height: 93px;
+    background-color: #FAE3A0;
+
+    margin: 0 auto;
+    float: left;
+}
+
+.boxes_container div{
+    float: left;
+
+    height: 93px;
+    width: 93px;
+
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
